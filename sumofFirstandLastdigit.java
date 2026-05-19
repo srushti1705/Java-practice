@@ -10,6 +10,7 @@ public class sumofFirstandLastdigit {
 
         int first = num / 100;
         int last = num % 10;
+        
         sum = first + last;
 
         System.out.println("Sum: " + sum);
